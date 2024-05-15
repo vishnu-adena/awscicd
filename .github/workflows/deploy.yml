@@ -1,8 +1,11 @@
 name: Build and Deploy
-
 on:
-  workflow_dispatch: {}
-
+  push:
+    branches:
+      - main
+  pull_request_review:
+    branches:
+      - main
 env:
   applicationfolder: productService1
   AWS_REGION: us-east-2
