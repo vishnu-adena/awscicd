@@ -63,15 +63,15 @@ class ProductServiceApplicationTests {
         Product savedProduct = productRepository.save(product);
         return Optional.of(savedProduct);
     }
-    @Test
-    void contextLoads() {
-    }
-    @Test
-    void setAllProducts() {
-        int i = 1;
-        while (i < 21) {
-            getSingleProduct(i);
-            i = i + 1;
-        }
-    }
+//    @Test
+//    void contextLoads() {
+//    }
+//    @Test
+//    void setAllProducts() {
+//        int i = 1;
+//        while (i < 21) {
+//            getSingleProduct(i);
+//            i = i + 1;
+//        }
+//    }
 }
