@@ -9,7 +9,7 @@ on:
 env:
   applicationfolder: productService1
   AWS_REGION: us-east-2
-  S3BUCKET: edhukanproductservice11-webappdeploymentbucket-esflysr6jjfj
+  S3BUCKET: edhukan-webappdeploymentbucket-psfaoywphuno
 
 
 jobs:
